@@ -8,7 +8,7 @@ const data = [
 ]
 
 data.map(e => {
-    const li = document.createElement('ol')
+    const li = document.createElement('li')
     li.innerText = e.name
     li.setAttribute('data-color', e.color)
     li.setAttribute('data-user', e.id)
